@@ -80,14 +80,14 @@
 		<center>
 			<span class="heading-1 bg-color-2" id="contact"> CONTACT </span>
 				<div class="bg-color-2">
-					<form action="#" method="POST">
-						<input type="text" name="name" placeholder="NAME">
+					<form action="#" method="POST" onsubmit="myform()">
+						<input type="text" name="name" placeholder="NAME" required>
 						<br>
-						<input type="email" name="email" placeholder="EMAIL">
+						<input type="email" name="email" placeholder="EMAIL" required>
 						<br>
-						<textarea name="message" rows="5" cols="30" placeholder="MESSAGE"></textarea>
+						<textarea name="message" rows="5" cols="30" placeholder="MESSAGE" required></textarea>
 						<br>
-						<button type="button" class="button btn-black" onclick="myButton()">SUBMIT</button>
+						<button type="submit" class="button btn-black" >SUBMIT</button>
 					</form>
 				</div>
 		</center>
@@ -100,7 +100,7 @@
 		</div>
 <!--  -->
 <script>
-	function myButton() {
+	function myform() {
 	  alert("Message Sent Successfully 😄");
 	  window.location.href = "#home";
 	}
