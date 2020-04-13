@@ -1,8 +1,103 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>portfolio</title>
-    </head>
-    <body>
-        Hello World
-    </body>
+<head>
+  <title>Profile</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--  -->
+		<div class="row text-large">
+			<div class="h-col1"> <img src="pp.jpg" width="70px" height="auto"> </div>
+			<div class="h-col2" style="text-align: left; padding-top: 20px; font-size: 22px;"> <b>Richal Patel</b></div>
+			<div class="h-col3" style="text-align: right;">
+				<a href="#about" onclick="myFunction1()" style="padding-right: 3px;">About</a>
+				<a href="#contact" onclick="myFunction2()">Contact</a>
+			</div>
+		</div>
+		<center>
+			<span class="heading-1 bg-color-2"> My Projects </span>
+		</center>
+		<div class="row bg-color-2">
+		  <div class="col-6">
+		  	<img src="report.jpg" width="100%">
+		    <span class="heading-2">Project 1</span>														
+		    <p class="text-small">This C++ mini project on STUDENT REPORT CARD has student class with data members like roll no, name, marks and grade. Member functions in this class are used for accept / display details of students and a function to calculate grade based on marks obtained by student. Student Records are stored in binary file.</p>
+		  </div>
+
+		  <div class="col-6">
+		  	<img src="billing.jpg" width="100%">
+		    <span class="heading-2">Project 2</span>
+		    <p class="text-small">This C++ menu driven programs on SUPERMARKET BILLING SYSTEM has product class with data members like product no, product name, price, qty, tax, discount. Product details is stored in a binary file. A customer can purchase product and his invoice generated. Administrator can create, modify, view and delete product record.</p>
+		  </div>
+
+		  <div class="col-6">
+		  	<img src="game.jpg" width="100%">
+		    <span class="heading-2">Project 3</span>
+		    <p class="text-small">This C++ program on TIC TAC TOE GAME is a simple text base game. This program is without grahics to focus on logic /algorithm used in game. Two players can play this game.</p>
+		  </div>
+
+		  <div class="col-6">
+		  	<img src="bank.jpg" width="100%">
+		    <span class="heading-2">Project 4</span>
+		    <p class="text-small">This C++ programs on BANKING SYSTEM has account classwith data members like account number,name,deposit, withdraw amount and type of account. Customer data is stored in a binary file. A customer can deposite and withdraw amount in his account. User can create, modify and delete account.</p>
+		  </div>
+		</div>
+
+		<center>
+			<span class="heading-1 bg-color-1 text-colo-white" id="about"> About </span>
+		</center>
+		<div class="row bg-color-1">
+			<div class="col-6">
+				<img src="pp.jpg" width="100%">
+			</div>
+			<div class="col-6 text-colo-white">
+				<span class="heading-2">My Experience</span>
+				<p class="text-large">
+					■ Cleared SSC in 2017 and HSC in 2019.<br/>
+					Presently a studying Computer networking and technical support at St. Lawrence.
+				</p>
+				<p class="text-large">
+					■ The country is really beautiful and people here are very helpful. The assignments and homework keep you busy. The coursework tests your practical knowledge and not just your mugging up skills for the final exam	
+				</p>
+			</div>
+		</div>
+		<div class="row bg-color-1">
+			<div class="h-col4 bg-color">
+				<span class="heading-3 text-colo-white"> My Skills </span>
+			</div>
+		</div>
+		<div class="row text-large-2 bg-color-1 text-colo-white">
+			<div class="h-col5">■ Leadership</div>
+			<div class="h-col5">■ Technical</div>
+			<div class="h-col5">■ Communication</div>
+			<div class="h-col5">■ Learning</div>
+		</div>
+
+		<center>
+			<span class="heading-1 bg-color-2" id="contact"> CONTACT </span>
+				<div class="bg-color-2">
+					<form action="" method="POST">
+						<input type="text" name="name" placeholder="NAME">
+						<br>
+						<input type="email" name="email" placeholder="EMAIL">
+						<br>
+						<textarea name="message" rows="5" cols="30" placeholder="MESSAGE"></textarea>
+						<br>
+						<button type="submit" class="button btn-black">SUBMIT </button>
+					</form>
+				</div>
+		</center>
+
+		<div class="row">
+			<div class="col-s-1 center text-large">@2020 Richal Patel</div>
+			<div class="col-s-2">
+				<a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-google"></a>
+			</div>
+		</div>
+<!--  -->
+</body>
 </html>
